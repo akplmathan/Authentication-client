@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    width: 100%;
+    background-color: rgb(62, 39, 83);
+}
+.nav h2{
+    color: brown;
+}
+div ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    color: aliceblue;
+}
+div ul li,li a{
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
